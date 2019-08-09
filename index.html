@@ -34,9 +34,9 @@
 				url: `https://api.vk.com/method/docs.getById?access_token=f32f2647ef8fe27fa67387a8e985467be5fa0985377ea464b86111e303f688ae90252ef1befe8be96307c&v=5.101&docs=23110360_437721581`,
 				dataType: 'jsonp',
 				success: function(data) {
-					сonsole.log(data);
+					console.log(data)
 					if (data.response && data.response.length) {
-						console.log(data.response)
+						console.log(data.response);
 					}
 				},
 				error: function(e){
